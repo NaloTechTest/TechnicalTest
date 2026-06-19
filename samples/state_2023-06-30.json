@@ -1,0 +1,30 @@
+{
+  "contract_id": "9d14e9ed-99a9-53b0-bb88-f87c2ef29abb",
+  "value_date": "2023-06-30",
+  "capital": "18692.99",
+  "net_investi": "18545.00",
+  "absolute_performance": "147.99",
+  "allocation": [
+    {
+      "isin": "LU1234567890",
+      "amount": "9676.73",
+      "weight": "0.5177"
+    },
+    {
+      "isin": "FR0012345678",
+      "amount": "4956.85",
+      "weight": "0.2652"
+    },
+    {
+      "isin": "IE0098765432",
+      "amount": "2382.03",
+      "weight": "0.1274"
+    },
+    {
+      "isin": "LU1122334455",
+      "amount": "1677.37",
+      "weight": "0.0897"
+    }
+  ],
+  "events_applied": 103
+}

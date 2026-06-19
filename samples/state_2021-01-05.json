@@ -1,0 +1,30 @@
+{
+  "contract_id": "9d14e9ed-99a9-53b0-bb88-f87c2ef29abb",
+  "value_date": "2021-01-05",
+  "capital": "15000.00",
+  "net_investi": "15000.00",
+  "absolute_performance": "0.00",
+  "allocation": [
+    {
+      "isin": "LU1234567890",
+      "amount": "6750.00",
+      "weight": "0.4500"
+    },
+    {
+      "isin": "FR0012345678",
+      "amount": "4500.00",
+      "weight": "0.3000"
+    },
+    {
+      "isin": "IE0098765432",
+      "amount": "2250.00",
+      "weight": "0.1500"
+    },
+    {
+      "isin": "LU1122334455",
+      "amount": "1500.00",
+      "weight": "0.1000"
+    }
+  ],
+  "events_applied": 1
+}

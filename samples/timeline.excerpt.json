@@ -1,0 +1,86 @@
+[
+  {
+    "event_id": "6cc4e07c-e990-55fa-8658-bc58268a6b2f",
+    "sequence": 1,
+    "type": "free_deposit",
+    "value_date": "2021-01-05",
+    "cash_impact": "15000.00"
+  },
+  {
+    "event_id": "32a4da12-f536-5b08-969d-11bd470a6251",
+    "sequence": 2,
+    "type": "monthly_performance",
+    "value_date": "2021-01-28",
+    "cash_impact": null
+  },
+  {
+    "event_id": "8f92796b-162a-5a30-9fdc-41534cf45eec",
+    "sequence": 3,
+    "type": "management_fee",
+    "value_date": "2021-01-28",
+    "cash_impact": null
+  },
+  {
+    "event_id": "5d66e331-1b22-5cca-96f7-ec9ab09c4805",
+    "sequence": 6,
+    "type": "arbitrage",
+    "value_date": "2021-02-15",
+    "cash_impact": null
+  },
+  {
+    "event_id": "ab6faa31-2099-53f8-9b20-5781afe28e8f",
+    "sequence": 7,
+    "type": "account_dividend",
+    "value_date": "2021-02-27",
+    "cash_impact": "32.00"
+  },
+  {
+    "event_id": "e19bc247-ca95-5426-be06-c4b1451ede05",
+    "sequence": 4,
+    "type": "monthly_performance",
+    "value_date": "2021-02-28",
+    "cash_impact": null
+  },
+  {
+    "event_id": "dab50165-89d1-5927-8fe3-e4b952a7c272",
+    "sequence": 5,
+    "type": "management_fee",
+    "value_date": "2021-02-28",
+    "cash_impact": null
+  },
+  {
+    "event_id": "87867ebe-dab8-5a0d-92fe-6b279bc55d77",
+    "sequence": 10,
+    "type": "free_deposit",
+    "value_date": "2021-03-10",
+    "cash_impact": "509.00"
+  },
+  {
+    "event_id": "21e59f88-7590-524c-8197-d4f24a0cb706",
+    "sequence": 8,
+    "type": "monthly_performance",
+    "value_date": "2021-03-28",
+    "cash_impact": null
+  },
+  {
+    "event_id": "2474896e-316f-57b2-ab9d-d65337b87e26",
+    "sequence": 9,
+    "type": "management_fee",
+    "value_date": "2021-03-28",
+    "cash_impact": null
+  },
+  {
+    "event_id": "79b36ebb-c797-53a4-90f8-397cfbc859b6",
+    "sequence": 13,
+    "type": "free_withdrawal",
+    "value_date": "2021-04-12",
+    "cash_impact": "-354.00"
+  },
+  {
+    "event_id": "6764e46b-a4fc-5d98-8f8f-45d526be4a9d",
+    "sequence": 14,
+    "type": "account_dividend",
+    "value_date": "2021-04-27",
+    "cash_impact": "26.00"
+  }
+]

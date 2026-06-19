@@ -1,0 +1,3309 @@
+{
+  "fixture_version": "1.0",
+  "contract_id": "9d14e9ed-99a9-53b0-bb88-f87c2ef29abb",
+  "currency": "EUR",
+  "events": [
+    {
+      "event_id": "6cc4e07c-e990-55fa-8658-bc58268a6b2f",
+      "sequence": 1,
+      "type": "free_deposit",
+      "value_date": "2021-01-05",
+      "amount": "15000.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4500"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.3000"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1500"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.1000"
+        }
+      ],
+      "communication_date": "2021-01-04",
+      "execution_date": "2021-01-05"
+    },
+    {
+      "event_id": "32a4da12-f536-5b08-969d-11bd470a6251",
+      "sequence": 2,
+      "type": "monthly_performance",
+      "value_date": "2021-01-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "8f92796b-162a-5a30-9fdc-41534cf45eec",
+      "sequence": 3,
+      "type": "management_fee",
+      "value_date": "2021-01-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "e19bc247-ca95-5426-be06-c4b1451ede05",
+      "sequence": 4,
+      "type": "monthly_performance",
+      "value_date": "2021-02-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "dab50165-89d1-5927-8fe3-e4b952a7c272",
+      "sequence": 5,
+      "type": "management_fee",
+      "value_date": "2021-02-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "5d66e331-1b22-5cca-96f7-ec9ab09c4805",
+      "sequence": 6,
+      "type": "arbitrage",
+      "value_date": "2021-02-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4700"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2900"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1433"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0967"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2021-02-14",
+      "execution_date": "2021-02-15"
+    },
+    {
+      "event_id": "ab6faa31-2099-53f8-9b20-5781afe28e8f",
+      "sequence": 7,
+      "type": "account_dividend",
+      "value_date": "2021-02-27",
+      "value": "32.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "21e59f88-7590-524c-8197-d4f24a0cb706",
+      "sequence": 8,
+      "type": "monthly_performance",
+      "value_date": "2021-03-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0019"
+        }
+      ]
+    },
+    {
+      "event_id": "2474896e-316f-57b2-ab9d-d65337b87e26",
+      "sequence": 9,
+      "type": "management_fee",
+      "value_date": "2021-03-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "87867ebe-dab8-5a0d-92fe-6b279bc55d77",
+      "sequence": 10,
+      "type": "free_deposit",
+      "value_date": "2021-03-10",
+      "amount": "509.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4700"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2900"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1433"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0967"
+        }
+      ],
+      "communication_date": "2021-03-09",
+      "execution_date": "2021-03-10"
+    },
+    {
+      "event_id": "d170ad59-cf25-515a-9c01-da04011ca5b6",
+      "sequence": 11,
+      "type": "monthly_performance",
+      "value_date": "2021-04-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0004"
+        }
+      ]
+    },
+    {
+      "event_id": "b0b296d1-dce4-5666-bf00-f369add195a4",
+      "sequence": 12,
+      "type": "management_fee",
+      "value_date": "2021-04-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "79b36ebb-c797-53a4-90f8-397cfbc859b6",
+      "sequence": 13,
+      "type": "free_withdrawal",
+      "value_date": "2021-04-12",
+      "gross_value": "354.00",
+      "mode": "proportional",
+      "communication_date": "2021-04-11",
+      "execution_date": "2021-04-12"
+    },
+    {
+      "event_id": "6764e46b-a4fc-5d98-8f8f-45d526be4a9d",
+      "sequence": 14,
+      "type": "account_dividend",
+      "value_date": "2021-04-27",
+      "value": "26.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "28f1b243-bc1b-5197-a260-f2a80de56358",
+      "sequence": 15,
+      "type": "monthly_performance",
+      "value_date": "2021-05-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0011"
+        }
+      ]
+    },
+    {
+      "event_id": "47a4911f-8115-5a7c-908e-7decc24b850c",
+      "sequence": 16,
+      "type": "management_fee",
+      "value_date": "2021-05-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "a5d54391-e271-5608-aeca-03a2f5d060c5",
+      "sequence": 17,
+      "type": "account_social_tax",
+      "value_date": "2021-05-28",
+      "value": "18.00"
+    },
+    {
+      "event_id": "3b5703c9-4077-5b41-8ad9-76cb835600d3",
+      "sequence": 18,
+      "type": "monthly_performance",
+      "value_date": "2021-06-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "55bdd4e3-7752-5613-899e-69c3de23c74a",
+      "sequence": 19,
+      "type": "management_fee",
+      "value_date": "2021-06-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "61036a85-d25c-5b9c-a1c2-abe3560ee17c",
+      "sequence": 20,
+      "type": "free_deposit",
+      "value_date": "2021-06-10",
+      "amount": "518.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4700"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2900"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1433"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0967"
+        }
+      ],
+      "communication_date": "2021-06-09",
+      "execution_date": "2021-06-10"
+    },
+    {
+      "event_id": "36b35526-afd2-5385-bace-832dc724efb8",
+      "sequence": 21,
+      "type": "account_dividend",
+      "value_date": "2021-06-27",
+      "value": "28.00",
+      "isin": "LU1122334455"
+    },
+    {
+      "event_id": "ce64efed-fba6-5bb3-8c30-5470bc2e4de7",
+      "sequence": 22,
+      "type": "monthly_performance",
+      "value_date": "2021-07-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "8b643ff8-a27e-500b-9b9a-10392bd09104",
+      "sequence": 23,
+      "type": "management_fee",
+      "value_date": "2021-07-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "b0780079-938a-59fa-9e87-b28c2bd100cb",
+      "sequence": 24,
+      "type": "arbitrage",
+      "value_date": "2021-07-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4900"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2800"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1366"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0934"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2021-07-14",
+      "execution_date": "2021-07-15"
+    },
+    {
+      "event_id": "492737ee-3255-5675-b4d7-364b38b58caf",
+      "sequence": 25,
+      "type": "monthly_performance",
+      "value_date": "2021-08-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0019"
+        }
+      ]
+    },
+    {
+      "event_id": "07943b4b-d748-550d-b2e0-295bc5a9b6b3",
+      "sequence": 26,
+      "type": "management_fee",
+      "value_date": "2021-08-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "22c82b36-3fe6-5301-8a7c-2456717fc682",
+      "sequence": 27,
+      "type": "account_dividend",
+      "value_date": "2021-08-27",
+      "value": "30.00",
+      "isin": "LU1234567890"
+    },
+    {
+      "event_id": "c4034803-860e-50ab-8ccd-e8b8740190ce",
+      "sequence": 28,
+      "type": "monthly_performance",
+      "value_date": "2021-09-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0004"
+        }
+      ]
+    },
+    {
+      "event_id": "305028b1-8dd9-5d93-a774-100847805f58",
+      "sequence": 29,
+      "type": "management_fee",
+      "value_date": "2021-09-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "69b49a08-b549-50b3-8d42-78221dfbec02",
+      "sequence": 30,
+      "type": "free_deposit",
+      "value_date": "2021-09-10",
+      "amount": "527.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4900"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2800"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1366"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0934"
+        }
+      ],
+      "communication_date": "2021-09-09",
+      "execution_date": "2021-09-10"
+    },
+    {
+      "event_id": "60c0b902-dc16-56e7-b315-f5fcf429b549",
+      "sequence": 31,
+      "type": "monthly_performance",
+      "value_date": "2021-10-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0011"
+        }
+      ]
+    },
+    {
+      "event_id": "ca5052cb-0194-5ec4-aba6-0a5cea30cb38",
+      "sequence": 32,
+      "type": "management_fee",
+      "value_date": "2021-10-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "327a6723-24fa-50e9-b23c-9d6d47808faa",
+      "sequence": 33,
+      "type": "free_withdrawal",
+      "value_date": "2021-10-12",
+      "gross_value": "360.00",
+      "mode": "proportional",
+      "communication_date": "2021-10-11",
+      "execution_date": "2021-10-12"
+    },
+    {
+      "event_id": "158d003e-3732-5063-a4a2-16b70181d570",
+      "sequence": 34,
+      "type": "account_dividend",
+      "value_date": "2021-10-27",
+      "value": "32.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "27b3b2cf-84ae-51aa-ae76-fb478fff162b",
+      "sequence": 35,
+      "type": "monthly_performance",
+      "value_date": "2021-11-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "bac95ccc-0c23-5a8d-a689-1193279c5172",
+      "sequence": 36,
+      "type": "management_fee",
+      "value_date": "2021-11-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "788983bb-649e-52e5-b1ad-cb3b5a4bdb02",
+      "sequence": 37,
+      "type": "arbitrage",
+      "value_date": "2021-11-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4750"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2875"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1416"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0959"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2021-11-14",
+      "execution_date": "2021-11-15"
+    },
+    {
+      "event_id": "911f2334-f158-5ae3-bc25-986ff308a68d",
+      "sequence": 38,
+      "type": "monthly_performance",
+      "value_date": "2021-12-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "216afc3e-bb8f-5bfa-bdde-00a41b50ba20",
+      "sequence": 39,
+      "type": "management_fee",
+      "value_date": "2021-12-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "3f401523-6260-5d57-98a8-311b2776a574",
+      "sequence": 40,
+      "type": "free_deposit",
+      "value_date": "2021-12-10",
+      "amount": "536.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4750"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2875"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1416"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0959"
+        }
+      ],
+      "communication_date": "2021-12-09",
+      "execution_date": "2021-12-10"
+    },
+    {
+      "event_id": "9a76cf81-498b-5068-859f-10105db9e692",
+      "sequence": 41,
+      "type": "account_dividend",
+      "value_date": "2021-12-27",
+      "value": "26.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "2b3006f1-975f-5483-844e-7b171ac4abd2",
+      "sequence": 42,
+      "type": "account_social_tax",
+      "value_date": "2021-12-28",
+      "value": "20.00"
+    },
+    {
+      "event_id": "b8e59dd1-95e5-5102-87fd-063344091772",
+      "sequence": 43,
+      "type": "monthly_performance",
+      "value_date": "2022-01-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "c53e6f3d-63a2-5ebe-bbb8-c9e122f0f303",
+      "sequence": 44,
+      "type": "management_fee",
+      "value_date": "2022-01-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "4bf1e06b-a45f-5537-bb3a-f238d063f71b",
+      "sequence": 45,
+      "type": "monthly_performance",
+      "value_date": "2022-02-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "f832565d-b078-5ad5-989b-8886dc2cc1e1",
+      "sequence": 46,
+      "type": "management_fee",
+      "value_date": "2022-02-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f7d2ffa2-9dff-5351-9316-3a440d69c079",
+      "sequence": 47,
+      "type": "arbitrage",
+      "value_date": "2022-02-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4950"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2775"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1349"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0926"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2022-02-14",
+      "execution_date": "2022-02-15"
+    },
+    {
+      "event_id": "c406ec73-2c65-56a0-910f-e4542d5a82dd",
+      "sequence": 48,
+      "type": "account_dividend",
+      "value_date": "2022-02-27",
+      "value": "25.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "b3ce4860-c61f-5785-81c8-29b266c051bc",
+      "sequence": 49,
+      "type": "monthly_performance",
+      "value_date": "2022-03-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "413d8920-f674-55ee-8be5-7b8eb920d63b",
+      "sequence": 50,
+      "type": "management_fee",
+      "value_date": "2022-03-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "c4792626-fcd8-5186-a10b-5e0fd89ac67e",
+      "sequence": 51,
+      "type": "free_deposit",
+      "value_date": "2022-03-10",
+      "amount": "534.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4950"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2775"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1349"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0926"
+        }
+      ],
+      "communication_date": "2022-03-09",
+      "execution_date": "2022-03-10"
+    },
+    {
+      "event_id": "625f5070-a5db-5ab0-8183-f80a366aac9e",
+      "sequence": 52,
+      "type": "monthly_performance",
+      "value_date": "2022-04-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0000"
+        }
+      ]
+    },
+    {
+      "event_id": "eef63a86-d4e9-5704-a0cc-bef2de900411",
+      "sequence": 53,
+      "type": "management_fee",
+      "value_date": "2022-04-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "39ec3f95-e311-5d07-b0e9-0cf91931ac9e",
+      "sequence": 54,
+      "type": "free_withdrawal",
+      "value_date": "2022-04-12",
+      "gross_value": "374.00",
+      "mode": "proportional",
+      "communication_date": "2022-04-11",
+      "execution_date": "2022-04-12"
+    },
+    {
+      "event_id": "48c8c704-1aff-5fcb-8603-3443ca9040cb",
+      "sequence": 55,
+      "type": "account_dividend",
+      "value_date": "2022-04-27",
+      "value": "27.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "d5cbee43-cebf-528a-bd64-4bb26b163a8b",
+      "sequence": 56,
+      "type": "monthly_performance",
+      "value_date": "2022-05-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "bda5af68-b2eb-52a6-a99b-659d87035dfc",
+      "sequence": 57,
+      "type": "management_fee",
+      "value_date": "2022-05-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "9d482583-e9d8-507c-9861-7b2b0a47d44a",
+      "sequence": 58,
+      "type": "account_social_tax",
+      "value_date": "2022-05-28",
+      "value": "20.00"
+    },
+    {
+      "event_id": "c849bd0f-1c2c-52a9-b666-1dc214927850",
+      "sequence": 59,
+      "type": "monthly_performance",
+      "value_date": "2022-06-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "74e5a8ac-0131-5c2c-afed-18098f561bea",
+      "sequence": 60,
+      "type": "management_fee",
+      "value_date": "2022-06-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "d26bf1ae-8f8f-52c4-9e9f-9ed106194248",
+      "sequence": 61,
+      "type": "free_deposit",
+      "value_date": "2022-06-10",
+      "amount": "543.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.4950"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2775"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1349"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0926"
+        }
+      ],
+      "communication_date": "2022-06-09",
+      "execution_date": "2022-06-10"
+    },
+    {
+      "event_id": "949ce11c-6fb7-5776-bf40-96202b43f72a",
+      "sequence": 62,
+      "type": "account_dividend",
+      "value_date": "2022-06-27",
+      "value": "29.00",
+      "isin": "LU1122334455"
+    },
+    {
+      "event_id": "dc8208de-949f-53d2-a78a-6208bcf2dced",
+      "sequence": 63,
+      "type": "monthly_performance",
+      "value_date": "2022-07-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "70d81af7-4625-51c4-8a3f-b6db7ebdf59a",
+      "sequence": 64,
+      "type": "management_fee",
+      "value_date": "2022-07-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "1e0e1201-f54d-5d47-9fbf-58fa8ddbffd4",
+      "sequence": 65,
+      "type": "arbitrage",
+      "value_date": "2022-07-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5150"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2675"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1282"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0893"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2022-07-14",
+      "execution_date": "2022-07-15"
+    },
+    {
+      "event_id": "36401df4-0cab-5f75-b210-f0b208111114",
+      "sequence": 66,
+      "type": "monthly_performance",
+      "value_date": "2022-08-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "2a1ea05f-503a-5e3d-a780-bcf6ca0fbdb9",
+      "sequence": 67,
+      "type": "management_fee",
+      "value_date": "2022-08-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "4cc0c4d3-8580-5c25-80b9-6be981c6eb20",
+      "sequence": 68,
+      "type": "account_dividend",
+      "value_date": "2022-08-27",
+      "value": "31.00",
+      "isin": "LU1234567890"
+    },
+    {
+      "event_id": "af4c8cae-e55c-5627-ae13-e4c627aab975",
+      "sequence": 69,
+      "type": "monthly_performance",
+      "value_date": "2022-09-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0000"
+        }
+      ]
+    },
+    {
+      "event_id": "8e21b1d9-c89b-52b9-9df5-4ce0b78b4e9a",
+      "sequence": 70,
+      "type": "management_fee",
+      "value_date": "2022-09-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f8c0d932-1e8a-5e7b-865e-61f64da8bcc5",
+      "sequence": 71,
+      "type": "free_deposit",
+      "value_date": "2022-09-10",
+      "amount": "552.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5150"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2675"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1282"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0893"
+        }
+      ],
+      "communication_date": "2022-09-09",
+      "execution_date": "2022-09-10"
+    },
+    {
+      "event_id": "c7967c0c-06c8-5875-ab5d-b806030320fa",
+      "sequence": 72,
+      "type": "monthly_performance",
+      "value_date": "2022-10-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "008b45e8-318b-597e-b455-0c135596c3b1",
+      "sequence": 73,
+      "type": "management_fee",
+      "value_date": "2022-10-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f8fa79d4-a73d-5193-831e-3174eab5c793",
+      "sequence": 74,
+      "type": "free_withdrawal",
+      "value_date": "2022-10-12",
+      "gross_value": "380.00",
+      "mode": "proportional",
+      "communication_date": "2022-10-11",
+      "execution_date": "2022-10-12"
+    },
+    {
+      "event_id": "7fdafd17-9756-5cdc-893b-615fad9cf76d",
+      "sequence": 75,
+      "type": "account_dividend",
+      "value_date": "2022-10-27",
+      "value": "25.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "a64dcb53-5eb0-51b3-abca-6152125c2545",
+      "sequence": 76,
+      "type": "monthly_performance",
+      "value_date": "2022-11-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "a6ec0748-f302-59b2-bf3d-2150d5b72fab",
+      "sequence": 77,
+      "type": "management_fee",
+      "value_date": "2022-11-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "0e31293d-78e2-5c2e-8e6c-9dbde678861d",
+      "sequence": 78,
+      "type": "arbitrage",
+      "value_date": "2022-11-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5000"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2750"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1332"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0918"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2022-11-14",
+      "execution_date": "2022-11-15"
+    },
+    {
+      "event_id": "442f6bd0-f7d4-5414-9b63-c51b7d0ce9e9",
+      "sequence": 79,
+      "type": "monthly_performance",
+      "value_date": "2022-12-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "27c33e2d-2108-5afb-94c5-9d40ad13e00a",
+      "sequence": 80,
+      "type": "management_fee",
+      "value_date": "2022-12-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "84cce81f-4b31-5d94-b734-3fb5103b7238",
+      "sequence": 81,
+      "type": "free_deposit",
+      "value_date": "2022-12-10",
+      "amount": "561.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5000"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2750"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1332"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0918"
+        }
+      ],
+      "communication_date": "2022-12-09",
+      "execution_date": "2022-12-10"
+    },
+    {
+      "event_id": "8920d531-3455-50a2-936e-32f24a229e51",
+      "sequence": 82,
+      "type": "account_dividend",
+      "value_date": "2022-12-27",
+      "value": "27.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "6f1b7279-2172-50d6-ac3a-a51bc289a67c",
+      "sequence": 83,
+      "type": "account_social_tax",
+      "value_date": "2022-12-28",
+      "value": "22.00"
+    },
+    {
+      "event_id": "586423cd-495a-5ad4-b6f9-568e986d522d",
+      "sequence": 84,
+      "type": "monthly_performance",
+      "value_date": "2023-01-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "34898995-a914-5aef-9c92-d40e06cad645",
+      "sequence": 85,
+      "type": "management_fee",
+      "value_date": "2023-01-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f6cf7c57-2215-5ec4-9122-b6bad76f1f43",
+      "sequence": 86,
+      "type": "monthly_performance",
+      "value_date": "2023-02-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "f0267735-866d-5f5b-a7f3-d7efd83b9317",
+      "sequence": 87,
+      "type": "management_fee",
+      "value_date": "2023-02-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "cd3e21e9-dbb5-5cba-8c91-dfd35ce7e1a5",
+      "sequence": 88,
+      "type": "arbitrage",
+      "value_date": "2023-02-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5200"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2650"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1265"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0885"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2023-02-14",
+      "execution_date": "2023-02-15"
+    },
+    {
+      "event_id": "c08dc88f-d783-560e-bd70-a21af2a0a1fd",
+      "sequence": 89,
+      "type": "account_dividend",
+      "value_date": "2023-02-27",
+      "value": "26.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "eb07040a-9301-5288-b4d6-04d161da9022",
+      "sequence": 90,
+      "type": "monthly_performance",
+      "value_date": "2023-03-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0011"
+        }
+      ]
+    },
+    {
+      "event_id": "91c2fd1d-5b17-5421-b614-937965a72ef9",
+      "sequence": 91,
+      "type": "management_fee",
+      "value_date": "2023-03-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f280705d-148a-57a7-b7c5-e24a5d2e08d6",
+      "sequence": 92,
+      "type": "free_deposit",
+      "value_date": "2023-03-10",
+      "amount": "559.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5200"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2650"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1265"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0885"
+        }
+      ],
+      "communication_date": "2023-03-09",
+      "execution_date": "2023-03-10"
+    },
+    {
+      "event_id": "26679256-9ecb-5b4b-8ed7-a24293d21923",
+      "sequence": 93,
+      "type": "monthly_performance",
+      "value_date": "2023-04-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0026"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0004"
+        }
+      ]
+    },
+    {
+      "event_id": "5c20940b-f760-59c6-8693-0c47ca8d3902",
+      "sequence": 94,
+      "type": "management_fee",
+      "value_date": "2023-04-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "89aa5b71-f2ee-5525-b825-9c7d7409aff1",
+      "sequence": 95,
+      "type": "free_withdrawal",
+      "value_date": "2023-04-12",
+      "gross_value": "394.00",
+      "mode": "proportional",
+      "communication_date": "2023-04-11",
+      "execution_date": "2023-04-12"
+    },
+    {
+      "event_id": "941e900c-1e4c-5eae-badd-0eacba2ab286",
+      "sequence": 96,
+      "type": "account_dividend",
+      "value_date": "2023-04-27",
+      "value": "28.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "9e667c0d-7a02-51a6-a524-c01d4edc74dd",
+      "sequence": 97,
+      "type": "monthly_performance",
+      "value_date": "2023-05-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0026"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0019"
+        }
+      ]
+    },
+    {
+      "event_id": "d2e500b3-5bbd-58c9-88db-4c7d33b9c768",
+      "sequence": 98,
+      "type": "management_fee",
+      "value_date": "2023-05-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "de3ee052-1c0c-5f4f-a953-8ec7d793ef04",
+      "sequence": 99,
+      "type": "account_social_tax",
+      "value_date": "2023-05-28",
+      "value": "22.00"
+    },
+    {
+      "event_id": "1c476b3d-efa9-5f89-8743-29e2b6addfd1",
+      "sequence": 100,
+      "type": "monthly_performance",
+      "value_date": "2023-06-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "17df0138-7896-5b2c-a973-1247b3e8a4bf",
+      "sequence": 101,
+      "type": "management_fee",
+      "value_date": "2023-06-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "9764b9eb-0566-5dbb-98df-bcfd974e48b3",
+      "sequence": 102,
+      "type": "free_deposit",
+      "value_date": "2023-06-10",
+      "amount": "568.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5200"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2650"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1265"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0885"
+        }
+      ],
+      "communication_date": "2023-06-09",
+      "execution_date": "2023-06-10"
+    },
+    {
+      "event_id": "1111a19f-8ebc-5a16-9aca-543494dde26b",
+      "sequence": 103,
+      "type": "account_dividend",
+      "value_date": "2023-06-27",
+      "value": "30.00",
+      "isin": "LU1122334455"
+    },
+    {
+      "event_id": "5d58f0e0-8f0e-5721-9c6f-c28ec32d4fd1",
+      "sequence": 104,
+      "type": "monthly_performance",
+      "value_date": "2023-07-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "7618b4a8-ea8f-588a-b64e-714aabb6e38e",
+      "sequence": 105,
+      "type": "management_fee",
+      "value_date": "2023-07-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "cf0411fd-3094-51ef-89ac-19d9b84f62cb",
+      "sequence": 106,
+      "type": "arbitrage",
+      "value_date": "2023-07-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5400"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2550"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1198"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0852"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2023-07-14",
+      "execution_date": "2023-07-15"
+    },
+    {
+      "event_id": "c48db50d-e16b-5c97-9b84-94e53898d17c",
+      "sequence": 107,
+      "type": "monthly_performance",
+      "value_date": "2023-08-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0011"
+        }
+      ]
+    },
+    {
+      "event_id": "02d17942-b7ec-5165-a2c0-d17eb6048228",
+      "sequence": 108,
+      "type": "management_fee",
+      "value_date": "2023-08-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "1b1e4487-f792-538f-8295-0e0ca6cba756",
+      "sequence": 109,
+      "type": "account_dividend",
+      "value_date": "2023-08-27",
+      "value": "32.00",
+      "isin": "LU1234567890"
+    },
+    {
+      "event_id": "a076a09b-7871-5f6c-8798-29798d002dfb",
+      "sequence": 110,
+      "type": "monthly_performance",
+      "value_date": "2023-09-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0026"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0004"
+        }
+      ]
+    },
+    {
+      "event_id": "7670675e-d9ed-5a48-9ada-bfa795511449",
+      "sequence": 111,
+      "type": "management_fee",
+      "value_date": "2023-09-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f6b246ae-9b76-55b3-9f79-3c7d38693c0b",
+      "sequence": 112,
+      "type": "free_deposit",
+      "value_date": "2023-09-10",
+      "amount": "577.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5400"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2550"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1198"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0852"
+        }
+      ],
+      "communication_date": "2023-09-09",
+      "execution_date": "2023-09-10"
+    },
+    {
+      "event_id": "4f1fb7a6-a90a-5361-9e2e-453f0147b4a3",
+      "sequence": 113,
+      "type": "monthly_performance",
+      "value_date": "2023-10-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0026"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0019"
+        }
+      ]
+    },
+    {
+      "event_id": "ce6c11c6-fa5b-5e59-997b-935d546526f0",
+      "sequence": 114,
+      "type": "management_fee",
+      "value_date": "2023-10-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "9cc6df08-85a3-5759-aacd-c8dc57eea21d",
+      "sequence": 115,
+      "type": "free_withdrawal",
+      "value_date": "2023-10-12",
+      "gross_value": "400.00",
+      "mode": "proportional",
+      "communication_date": "2023-10-11",
+      "execution_date": "2023-10-12"
+    },
+    {
+      "event_id": "1749501a-39d4-5559-92ec-eb79186810d1",
+      "sequence": 116,
+      "type": "account_dividend",
+      "value_date": "2023-10-27",
+      "value": "26.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "c2e0f43a-ed48-51a4-a8ff-b3d43a0c0402",
+      "sequence": 117,
+      "type": "monthly_performance",
+      "value_date": "2023-11-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "0df06542-7c20-55f9-82fd-483f217fdaf7",
+      "sequence": 118,
+      "type": "management_fee",
+      "value_date": "2023-11-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "7fa056fb-efb2-5134-89e0-42e7769e17db",
+      "sequence": 119,
+      "type": "arbitrage",
+      "value_date": "2023-11-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5250"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2625"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1248"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0877"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2023-11-14",
+      "execution_date": "2023-11-15"
+    },
+    {
+      "event_id": "3f32c362-6b45-5910-873b-8cb0d717f8c5",
+      "sequence": 120,
+      "type": "monthly_performance",
+      "value_date": "2023-12-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "5bb815e9-ef95-5e7d-b003-e248f74a1a1a",
+      "sequence": 121,
+      "type": "management_fee",
+      "value_date": "2023-12-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "3f2e5a29-2c96-5245-a438-fb1319f88b13",
+      "sequence": 122,
+      "type": "free_deposit",
+      "value_date": "2023-12-10",
+      "amount": "586.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5250"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2625"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1248"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0877"
+        }
+      ],
+      "communication_date": "2023-12-09",
+      "execution_date": "2023-12-10"
+    },
+    {
+      "event_id": "dbf71e7d-e63d-57c2-8528-c8d1966aff03",
+      "sequence": 123,
+      "type": "account_dividend",
+      "value_date": "2023-12-27",
+      "value": "28.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "c262fb7f-95ec-5ec5-80aa-997f67d5e2fd",
+      "sequence": 124,
+      "type": "account_social_tax",
+      "value_date": "2023-12-28",
+      "value": "24.00"
+    },
+    {
+      "event_id": "7c94146d-cb69-5c52-9943-6f31de5a2895",
+      "sequence": 125,
+      "type": "monthly_performance",
+      "value_date": "2024-01-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "f0b3648a-26ab-5b82-824c-83d11cdb47a6",
+      "sequence": 126,
+      "type": "management_fee",
+      "value_date": "2024-01-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "635f05c9-bef1-5830-baa2-de0e47ccc61a",
+      "sequence": 127,
+      "type": "monthly_performance",
+      "value_date": "2024-02-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "9bf78693-7dc1-5058-9817-28e77e61a390",
+      "sequence": 128,
+      "type": "management_fee",
+      "value_date": "2024-02-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "10ff69f8-76ee-568a-9b07-ec45029ba3fe",
+      "sequence": 129,
+      "type": "arbitrage",
+      "value_date": "2024-02-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5450"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2525"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1181"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0844"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2024-02-14",
+      "execution_date": "2024-02-15"
+    },
+    {
+      "event_id": "3c0d24d0-7b3b-5c66-80aa-8fd65672423b",
+      "sequence": 130,
+      "type": "account_dividend",
+      "value_date": "2024-02-27",
+      "value": "27.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "f05708b4-4d36-55c4-b45b-eb12406d4ca4",
+      "sequence": 131,
+      "type": "monthly_performance",
+      "value_date": "2024-03-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0019"
+        }
+      ]
+    },
+    {
+      "event_id": "96500258-e59a-5d1e-899f-f52986313c58",
+      "sequence": 132,
+      "type": "management_fee",
+      "value_date": "2024-03-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "eed0bd66-f6c1-5417-8392-4dc1cbecbc89",
+      "sequence": 133,
+      "type": "free_deposit",
+      "value_date": "2024-03-10",
+      "amount": "584.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5450"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2525"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1181"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0844"
+        }
+      ],
+      "communication_date": "2024-03-09",
+      "execution_date": "2024-03-10"
+    },
+    {
+      "event_id": "3d4398ef-6b6f-520a-bd76-bd450907dcdb",
+      "sequence": 134,
+      "type": "monthly_performance",
+      "value_date": "2024-04-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0004"
+        }
+      ]
+    },
+    {
+      "event_id": "6ef31b17-efb3-5dc3-9461-6d5e563826ab",
+      "sequence": 135,
+      "type": "management_fee",
+      "value_date": "2024-04-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "77bf0057-cfbc-5096-a178-32bd65735ed9",
+      "sequence": 136,
+      "type": "free_withdrawal",
+      "value_date": "2024-04-12",
+      "gross_value": "414.00",
+      "mode": "proportional",
+      "communication_date": "2024-04-11",
+      "execution_date": "2024-04-12"
+    },
+    {
+      "event_id": "2b5f55f3-a29b-5884-b74d-8e3f248bd6de",
+      "sequence": 137,
+      "type": "account_dividend",
+      "value_date": "2024-04-27",
+      "value": "29.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "a877ba5a-967c-5382-b766-f07be7fe4688",
+      "sequence": 138,
+      "type": "monthly_performance",
+      "value_date": "2024-05-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0011"
+        }
+      ]
+    },
+    {
+      "event_id": "f0e30ad5-c0e9-5bf0-bc54-d42b9bd44742",
+      "sequence": 139,
+      "type": "management_fee",
+      "value_date": "2024-05-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "540b1502-fb30-529c-82b1-199ba98dbc90",
+      "sequence": 140,
+      "type": "account_social_tax",
+      "value_date": "2024-05-28",
+      "value": "24.00"
+    },
+    {
+      "event_id": "65793576-a000-5a38-9eb5-ab14db20854b",
+      "sequence": 141,
+      "type": "monthly_performance",
+      "value_date": "2024-06-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "afec4494-5bfd-5863-b2e4-4e08c6cc07ee",
+      "sequence": 142,
+      "type": "management_fee",
+      "value_date": "2024-06-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "6438a7fc-9086-5773-bef4-1ea2a39051a9",
+      "sequence": 143,
+      "type": "free_deposit",
+      "value_date": "2024-06-10",
+      "amount": "593.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5450"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2525"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1181"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0844"
+        }
+      ],
+      "communication_date": "2024-06-09",
+      "execution_date": "2024-06-10"
+    },
+    {
+      "event_id": "c165e126-2761-55fa-8b75-ca285fe37877",
+      "sequence": 144,
+      "type": "account_dividend",
+      "value_date": "2024-06-27",
+      "value": "31.00",
+      "isin": "LU1122334455"
+    },
+    {
+      "event_id": "1be45675-811c-51dc-8966-baae34d65542",
+      "sequence": 145,
+      "type": "monthly_performance",
+      "value_date": "2024-07-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "749eac65-df8c-5083-b0b7-14b0545947db",
+      "sequence": 146,
+      "type": "management_fee",
+      "value_date": "2024-07-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "f136b8fb-3ce2-55dc-b04f-0892c0765f52",
+      "sequence": 147,
+      "type": "arbitrage",
+      "value_date": "2024-07-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5650"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2425"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1114"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0811"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2024-07-14",
+      "execution_date": "2024-07-15"
+    },
+    {
+      "event_id": "bfedfd4c-d81c-52bf-94c2-8d79ae8975fd",
+      "sequence": 148,
+      "type": "monthly_performance",
+      "value_date": "2024-08-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0019"
+        }
+      ]
+    },
+    {
+      "event_id": "79fcdb5d-753c-51e5-bf8a-b3b49250fe18",
+      "sequence": 149,
+      "type": "management_fee",
+      "value_date": "2024-08-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "20c7f8c2-3d6a-5ecc-a9f0-d50b7bce8759",
+      "sequence": 150,
+      "type": "account_dividend",
+      "value_date": "2024-08-27",
+      "value": "25.00",
+      "isin": "LU1234567890"
+    },
+    {
+      "event_id": "61848e25-8cc0-51bd-98a7-968e72291430",
+      "sequence": 151,
+      "type": "monthly_performance",
+      "value_date": "2024-09-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0004"
+        }
+      ]
+    },
+    {
+      "event_id": "cb10b27b-4149-50da-b451-feebb6978f6a",
+      "sequence": 152,
+      "type": "management_fee",
+      "value_date": "2024-09-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "8f51828b-e468-5b87-be1a-5d8523628277",
+      "sequence": 153,
+      "type": "free_deposit",
+      "value_date": "2024-09-10",
+      "amount": "602.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5650"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2425"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1114"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0811"
+        }
+      ],
+      "communication_date": "2024-09-09",
+      "execution_date": "2024-09-10"
+    },
+    {
+      "event_id": "6cd4c9b8-a0ff-5488-8ec6-7584452c3a1e",
+      "sequence": 154,
+      "type": "monthly_performance",
+      "value_date": "2024-10-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0034"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0011"
+        }
+      ]
+    },
+    {
+      "event_id": "dd182c95-6799-5e0e-8758-a6f6f4a8618c",
+      "sequence": 155,
+      "type": "management_fee",
+      "value_date": "2024-10-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "1b9048c1-e177-5dce-ba5d-2dd53fb36681",
+      "sequence": 156,
+      "type": "free_withdrawal",
+      "value_date": "2024-10-12",
+      "gross_value": "420.00",
+      "mode": "proportional",
+      "communication_date": "2024-10-11",
+      "execution_date": "2024-10-12"
+    },
+    {
+      "event_id": "0d38d042-7682-5932-a64c-d6cc27ec4835",
+      "sequence": 157,
+      "type": "account_dividend",
+      "value_date": "2024-10-27",
+      "value": "27.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "6976657f-80f1-5481-a00c-bdf231b53b42",
+      "sequence": 158,
+      "type": "monthly_performance",
+      "value_date": "2024-11-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0019"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0026"
+        }
+      ]
+    },
+    {
+      "event_id": "e7aa9d50-5284-5633-a2ca-cf71ef17fc49",
+      "sequence": 159,
+      "type": "management_fee",
+      "value_date": "2024-11-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "a048a4c4-1fcb-5979-b4c2-c49495344491",
+      "sequence": 160,
+      "type": "arbitrage",
+      "value_date": "2024-11-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5500"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2500"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1164"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0836"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2024-11-14",
+      "execution_date": "2024-11-15"
+    },
+    {
+      "event_id": "e8381254-4dd1-5d07-b878-b662611ff5e8",
+      "sequence": 161,
+      "type": "monthly_performance",
+      "value_date": "2024-12-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0004"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0011"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0026"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0034"
+        }
+      ]
+    },
+    {
+      "event_id": "0c3e99e4-a8dc-5f7a-8433-0d5513142089",
+      "sequence": 162,
+      "type": "management_fee",
+      "value_date": "2024-12-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "a6426f9e-be37-5bef-8082-8c6a03585c92",
+      "sequence": 163,
+      "type": "free_deposit",
+      "value_date": "2024-12-10",
+      "amount": "611.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5500"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2500"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1164"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0836"
+        }
+      ],
+      "communication_date": "2024-12-09",
+      "execution_date": "2024-12-10"
+    },
+    {
+      "event_id": "7b1ad2ea-7aea-51ae-b38e-a55005e59e1b",
+      "sequence": 164,
+      "type": "account_dividend",
+      "value_date": "2024-12-27",
+      "value": "29.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "cae44487-7447-557c-9266-c2bc35ed6186",
+      "sequence": 165,
+      "type": "account_social_tax",
+      "value_date": "2024-12-28",
+      "value": "26.00"
+    },
+    {
+      "event_id": "a0e1d779-2e9e-5f7c-95b7-81b031623d21",
+      "sequence": 166,
+      "type": "monthly_performance",
+      "value_date": "2025-01-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "b3195abf-98b6-5efb-a2f4-c72795114bb2",
+      "sequence": 167,
+      "type": "management_fee",
+      "value_date": "2025-01-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "9e274ef6-f77e-59e9-bd10-c2e1d260a39d",
+      "sequence": 168,
+      "type": "monthly_performance",
+      "value_date": "2025-02-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "b80253e8-3e72-5b33-9f75-a7e2dcc9d747",
+      "sequence": 169,
+      "type": "management_fee",
+      "value_date": "2025-02-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "4e7040be-6624-5835-8289-58617e728736",
+      "sequence": 170,
+      "type": "arbitrage",
+      "value_date": "2025-02-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5700"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2400"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1097"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0803"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2025-02-14",
+      "execution_date": "2025-02-15"
+    },
+    {
+      "event_id": "cb5ae12c-e90b-5b57-a718-0c05db7df0ea",
+      "sequence": 171,
+      "type": "account_dividend",
+      "value_date": "2025-02-27",
+      "value": "28.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "c43310fe-b531-5b39-8cd3-c86a4f48ef9d",
+      "sequence": 172,
+      "type": "monthly_performance",
+      "value_date": "2025-03-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "f5fa9222-6011-52f9-ba11-9d2fc57163a2",
+      "sequence": 173,
+      "type": "management_fee",
+      "value_date": "2025-03-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "18494feb-0b28-5320-a228-f48f6b384c8b",
+      "sequence": 174,
+      "type": "free_deposit",
+      "value_date": "2025-03-10",
+      "amount": "609.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5700"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2400"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1097"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0803"
+        }
+      ],
+      "communication_date": "2025-03-09",
+      "execution_date": "2025-03-10"
+    },
+    {
+      "event_id": "14dbc716-49e1-5699-b69d-d4426dec8c58",
+      "sequence": 175,
+      "type": "monthly_performance",
+      "value_date": "2025-04-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0000"
+        }
+      ]
+    },
+    {
+      "event_id": "0595c5e3-e90a-5178-bfed-d11f8608dfa5",
+      "sequence": 176,
+      "type": "management_fee",
+      "value_date": "2025-04-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "4c1fe406-c320-51b4-acea-2d6001823313",
+      "sequence": 177,
+      "type": "free_withdrawal",
+      "value_date": "2025-04-12",
+      "gross_value": "434.00",
+      "mode": "proportional",
+      "communication_date": "2025-04-11",
+      "execution_date": "2025-04-12"
+    },
+    {
+      "event_id": "e0da6171-98ee-55f2-8ccc-f05d8d259025",
+      "sequence": 178,
+      "type": "account_dividend",
+      "value_date": "2025-04-27",
+      "value": "30.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "6ae07ea9-d8fc-5f53-9eda-1a3e23124420",
+      "sequence": 179,
+      "type": "monthly_performance",
+      "value_date": "2025-05-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "01427504-a7bd-5aeb-9501-65e53c4fc628",
+      "sequence": 180,
+      "type": "management_fee",
+      "value_date": "2025-05-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "44ea240c-7d4f-57ae-b29f-ab42099295cd",
+      "sequence": 181,
+      "type": "account_social_tax",
+      "value_date": "2025-05-28",
+      "value": "26.00"
+    },
+    {
+      "event_id": "c9bf2dff-767e-55b4-a324-a28c1f943ab6",
+      "sequence": 182,
+      "type": "monthly_performance",
+      "value_date": "2025-06-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "baf964b8-9bc0-5771-baf8-9427836a03f0",
+      "sequence": 183,
+      "type": "management_fee",
+      "value_date": "2025-06-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "951d02da-cbab-5c06-bf0d-a2266074eede",
+      "sequence": 184,
+      "type": "free_deposit",
+      "value_date": "2025-06-10",
+      "amount": "618.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5700"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2400"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1097"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0803"
+        }
+      ],
+      "communication_date": "2025-06-09",
+      "execution_date": "2025-06-10"
+    },
+    {
+      "event_id": "fb0c0502-bdd6-5692-8c93-dcedb3fb161d",
+      "sequence": 185,
+      "type": "account_dividend",
+      "value_date": "2025-06-27",
+      "value": "32.00",
+      "isin": "LU1122334455"
+    },
+    {
+      "event_id": "96c6a870-371e-5f41-adba-8de4585a9f18",
+      "sequence": 186,
+      "type": "monthly_performance",
+      "value_date": "2025-07-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "e4408077-f81d-56fb-9f65-2d389e9d5609",
+      "sequence": 187,
+      "type": "management_fee",
+      "value_date": "2025-07-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "b02877c8-d369-5fea-a68f-76d00101b6ec",
+      "sequence": 188,
+      "type": "arbitrage",
+      "value_date": "2025-07-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5900"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2300"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1030"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0770"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2025-07-14",
+      "execution_date": "2025-07-15"
+    },
+    {
+      "event_id": "a0985128-09a1-5969-9e90-a266cbe2cb93",
+      "sequence": 189,
+      "type": "monthly_performance",
+      "value_date": "2025-08-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "81b069cf-336d-5cbe-bdf1-cffbded9ee04",
+      "sequence": 190,
+      "type": "management_fee",
+      "value_date": "2025-08-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "602760c7-f6c6-5f28-be87-41b62ed534e9",
+      "sequence": 191,
+      "type": "account_dividend",
+      "value_date": "2025-08-27",
+      "value": "26.00",
+      "isin": "LU1234567890"
+    },
+    {
+      "event_id": "5df9cd49-ab81-559e-bce7-9ee10e96470d",
+      "sequence": 192,
+      "type": "monthly_performance",
+      "value_date": "2025-09-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0000"
+        }
+      ]
+    },
+    {
+      "event_id": "65789da9-4266-56f0-8d72-15531f55aaa1",
+      "sequence": 193,
+      "type": "management_fee",
+      "value_date": "2025-09-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "a330abf1-16aa-5c1d-b946-ff5af3951554",
+      "sequence": 194,
+      "type": "free_deposit",
+      "value_date": "2025-09-10",
+      "amount": "627.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5900"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2300"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1030"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0770"
+        }
+      ],
+      "communication_date": "2025-09-09",
+      "execution_date": "2025-09-10"
+    },
+    {
+      "event_id": "17d3a24a-0d78-541f-a62c-2fbad28608c5",
+      "sequence": 195,
+      "type": "monthly_performance",
+      "value_date": "2025-10-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0030"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0015"
+        }
+      ]
+    },
+    {
+      "event_id": "827f8269-0f06-5ff9-a431-4321e3dd7103",
+      "sequence": 196,
+      "type": "management_fee",
+      "value_date": "2025-10-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "7992b015-e80a-5e6d-bb6b-ae98a06ec9ec",
+      "sequence": 197,
+      "type": "free_withdrawal",
+      "value_date": "2025-10-12",
+      "gross_value": "440.00",
+      "mode": "proportional",
+      "communication_date": "2025-10-11",
+      "execution_date": "2025-10-12"
+    },
+    {
+      "event_id": "dcb04248-ef3f-5e9a-a9b2-2026818aafa0",
+      "sequence": 198,
+      "type": "account_dividend",
+      "value_date": "2025-10-27",
+      "value": "28.00",
+      "isin": "FR0012345678"
+    },
+    {
+      "event_id": "f95b572b-6347-5b50-920a-28cbcfa85b64",
+      "sequence": 199,
+      "type": "monthly_performance",
+      "value_date": "2025-11-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "-0.0015"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "b446b133-9103-5300-9e1b-33bb366c2ef5",
+      "sequence": 200,
+      "type": "management_fee",
+      "value_date": "2025-11-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "0007472c-d9c8-57d5-a7c9-0bab1730e814",
+      "sequence": 201,
+      "type": "arbitrage",
+      "value_date": "2025-11-15",
+      "target_allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5750"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2375"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1080"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0795"
+        }
+      ],
+      "reason": "rebalance",
+      "communication_date": "2025-11-14",
+      "execution_date": "2025-11-15"
+    },
+    {
+      "event_id": "19f98bf7-2201-5199-a418-742b3910ef36",
+      "sequence": 202,
+      "type": "monthly_performance",
+      "value_date": "2025-12-28",
+      "returns": [
+        {
+          "isin": "LU1234567890",
+          "rate": "0.0000"
+        },
+        {
+          "isin": "FR0012345678",
+          "rate": "0.0015"
+        },
+        {
+          "isin": "IE0098765432",
+          "rate": "0.0030"
+        },
+        {
+          "isin": "LU1122334455",
+          "rate": "-0.0030"
+        }
+      ]
+    },
+    {
+      "event_id": "89a51af9-a84f-57dd-b7e0-8c4c34a8c83e",
+      "sequence": 203,
+      "type": "management_fee",
+      "value_date": "2025-12-28",
+      "fee_rate": "0.0003",
+      "mode": "proportional"
+    },
+    {
+      "event_id": "36425fad-1f46-58e0-aff3-acee9dd4879b",
+      "sequence": 204,
+      "type": "free_deposit",
+      "value_date": "2025-12-10",
+      "amount": "636.00",
+      "allocation": [
+        {
+          "isin": "LU1234567890",
+          "weight": "0.5750"
+        },
+        {
+          "isin": "FR0012345678",
+          "weight": "0.2375"
+        },
+        {
+          "isin": "IE0098765432",
+          "weight": "0.1080"
+        },
+        {
+          "isin": "LU1122334455",
+          "weight": "0.0795"
+        }
+      ],
+      "communication_date": "2025-12-09",
+      "execution_date": "2025-12-10"
+    },
+    {
+      "event_id": "c51cd6fb-3fa3-567b-8706-11691919f3ea",
+      "sequence": 205,
+      "type": "account_dividend",
+      "value_date": "2025-12-27",
+      "value": "30.00",
+      "isin": "IE0098765432"
+    },
+    {
+      "event_id": "b48932f5-438c-5b01-850c-21844301f057",
+      "sequence": 206,
+      "type": "account_social_tax",
+      "value_date": "2025-12-28",
+      "value": "28.00"
+    }
+  ]
+}
